@@ -1,0 +1,305 @@
+// Override Bootstrap's Sass default variables
+//
+// Nearly all variables in Bootstrap are written with the `!default` flag.
+// This allows you to override the default values of those variables before
+// you import Bootstrap's source Sass files.
+//
+// Overriding the default variable values is the best way to customize your
+// CSS without writing _new_ styles. For example, change you can either change
+// `$body-color` or write more CSS that override's Bootstrap's CSS like so:
+// `body { color: red; }`.
+
+
+//
+// Bring in Bootstrap
+//
+
+// Option 1
+//
+// Import all of Bootstrap's CSS
+
+// @import "bootstrap/scss/bootstrap";
+
+//
+// Override Bootstrap Variables before importing files
+//
+@font-face {font-family: "Reinata"; 
+  src: url("//db.onlinewebfonts.com/t/b1f8b57f764139aca43d58cff1982ec9.eot"); 
+  src: url("//db.onlinewebfonts.com/t/b1f8b57f764139aca43d58cff1982ec9.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/b1f8b57f764139aca43d58cff1982ec9.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/b1f8b57f764139aca43d58cff1982ec9.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/b1f8b57f764139aca43d58cff1982ec9.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/b1f8b57f764139aca43d58cff1982ec9.svg#Reinata") format("svg"); }
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-XLight.eot');
+    src: local('Gotham ExtraLight'), local('Gotham-XLight'),
+        url('Gotham-XLight.eot?#iefix') format('embedded-opentype'),
+        url('Gotham-XLight.woff2') format('woff2'),
+        url('Gotham-XLight.woff') format('woff'),
+        url('Gotham-XLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Thin.eot');
+    src: local('Gotham Thin'), local('Gotham-Thin'),
+        url('../fonts/Gotham-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Thin.woff2') format('woff2'),
+        url('../fonts/Gotham-Thin.woff') format('woff'),
+        url('../fonts/Gotham-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Book.eot');
+    src: local('Gotham Book'), local('Gotham-Book'),
+        url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Book.woff2') format('woff2'),
+        url('../fonts/Gotham-Book.woff') format('woff'),
+        url('../fonts/Gotham-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Light.eot');
+    src: local('Gotham Light'), local('Gotham-Light'),
+        url('../fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Light.woff2') format('woff2'),
+        url('../fonts/Gotham-Light.woff') format('woff'),
+        url('../fonts/Gotham-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Bold.eot');
+    src: local('Gotham Bold'), local('Gotham-Bold'),
+        url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Bold.woff2') format('woff2'),
+        url('../fonts/Gotham-Bold.woff') format('woff'),
+        url('../fonts/Gotham-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Medium.eot');
+    src: local('Gotham Medium'), local('Gotham-Medium'),
+        url('../fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Medium.woff2') format('woff2'),
+        url('../fonts/Gotham-Medium.woff') format('woff'),
+        url('../fonts/Gotham-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Ultra';
+    src: url('../fonts/Gotham-Ultra.eot');
+    src: local('Gotham Ultra'), local('Gotham-Ultra'),
+        url('../fonts/Gotham-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Ultra.woff2') format('woff2'),
+        url('../fonts/Gotham-Ultra.woff') format('woff'),
+        url('../fonts/Gotham-Ultra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Black.eot');
+    src: local('Gotham Black'), local('Gotham-Black'),
+        url('../fonts/Gotham-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Black.woff2') format('woff2'),
+        url('../fonts/Gotham-Black.woff') format('woff'),
+        url('../fonts/Gotham-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+$border-radius: 2rem;
+$border-radius-lg: 1.3rem;
+$box-shadow-lg: 0 .3rem 1rem rgba(#000, .175);
+$input-btn-padding-y:         .775rem;
+$input-btn-padding-x:         1rem;
+$theme-colors: (
+  "primary": #F8337A,
+  "secundario":#E67161,
+  "marron":#785F4E,
+  "rosa-oscuro":#D89A9E,
+  "rosa-claro":#E5C1C5,
+);
+$font-family-sans-serif: 'Gotham';
+$blue:    #007bff;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #e83e8c;
+$red:     #dc3545;
+$orange:  #fd7e14;
+$yellow:  #ffc107;
+$green:   #28a745;
+$teal:    #20c997;
+$cyan:    #17a2b8;
+$principal-1: #F8337A;
+$principal-2: #785F4E;
+$principal-3: #B46063;
+$custom-colo-4: #937A69;
+$custom-colo-5: #CDC3B1;
+$custom-colo-6: #D89A9E;
+$custom-colo-7: #CCB4A3;
+$nude: #E2D9CC;
+$custom-colo-9: #E5C1C5;
+$custom-colo-10: #E5D9D1;
+$custom-colo-11: #EDE7E4;
+
+// Option 2
+//
+// Import just the styles you need. Note that some stylesheets are required no matter what.
+
+@import "bootstrap/scss/functions"; // Required
+@import "bootstrap/scss/variables"; // Required
+@import "bootstrap/scss/mixins"; // Required
+
+//
+// Override Bootstrap here
+//
+
+// Toggle global options
+$enable-gradients: true;
+$enable-shadows: true;
+
+// Customize some defaults
+
+$body-color: $purple;
+$body-bg: #f5f5f5;
+$border-radius: .4rem;
+
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot"; // Required
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/code";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/tables";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/button-group";
+@import "bootstrap/scss/input-group"; // Requires forms
+@import "bootstrap/scss/custom-forms";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar"; // Requires nav
+@import "bootstrap/scss/card";
+@import "bootstrap/scss/breadcrumb";
+@import "bootstrap/scss/pagination";
+@import "bootstrap/scss/badge";
+@import "bootstrap/scss/jumbotron";
+@import "bootstrap/scss/alert";
+@import "bootstrap/scss/progress";
+@import "bootstrap/scss/media";
+@import "bootstrap/scss/list-group";
+@import "bootstrap/scss/close";
+@import "bootstrap/scss/toasts";
+@import "bootstrap/scss/modal"; // Requires transitions
+@import "bootstrap/scss/tooltip";
+@import "bootstrap/scss/popover";
+@import "bootstrap/scss/carousel";
+@import "bootstrap/scss/spinners";
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/print";
+
+
+//
+// Custom styles & Utilities
+//
+.btn{
+    color: #FFF;
+    font-weight: 500;
+}
+.btn:hover{
+    color: #FFF;
+}
+.btn:is(.btn-primary, .btn-secundario, .btn-marron, .btn-rosa-oscuro, .btn-rosa-claro){
+    box-shadow: none !important;
+    border: none !important;
+}
+a, a:hover{
+    color: $principal-3;
+    text-decoration: none;
+}
+.text-medium{
+    font-weight: 500;
+}
+.bg-nude{
+    background-color: $nude;
+}
+h1, h2, h3{
+  font-family: 'Reinata';
+  font-size: 8em;
+  color: $principal-3;
+  line-height: 4rem;
+}
+@media(min-width:768px){
+    h1, h2, h3{
+        line-height: 8rem;
+    }
+}
+h4,h5,h6{
+    font-family: 'Gotham';
+    font-size: 17px;
+    font-weight: bold;
+    color: $principal-3;
+}
+
+// Style Bootstrap icons
+.bi {
+  fill: currentColor;
+}
+
+//
+// Navegacion Dashboard
+//
+.border-2{
+    border-top: 2px solid;
+}
+.contenedor-dash{
+    min-height: 100vh;
+}
+.nav-dashboard a{
+    color: $principal-3;
+    font-weight: 400;
+}
+.nav-dashboard .dropdown-item:hover, .dropdown-item:focus{
+    color: #B46063;
+    text-decoration: none;
+    background: none;
+}
+.nav-dashboard .dropdown-item{
+    padding: .25rem 0.8rem;
+}
+.nav-dashboard .rounded-lg {
+    border-radius: 1.3rem !important;
+}
+.nav-dashboard .nav-link[aria-expanded=true].dropdown-toggle::after{
+    transform: rotate(180deg);
+    transition: all .3s;
+}
+
+//
+// Cards Principales Dashboard
+//
+h4.titulo-cards-dashboard {
+    font-size: 1.5em;
+    min-height: 75px;
+    padding: 0 1em;
+}
