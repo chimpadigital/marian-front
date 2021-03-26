@@ -131,12 +131,21 @@ $border-radius-lg: 1.3rem;
 $box-shadow-lg: 0 .3rem 1rem rgba(#000, .175);
 $input-btn-padding-y:         .775rem;
 $input-btn-padding-x:         1rem;
+$breadcrumb-divider: quote(">");
+$input-color: #937A69;
+$input-border-color: #937A69;
+
+
+
 $theme-colors: (
   "primary": #F8337A,
-  "secundario":#E67161,
+  "secondary": #B46063,
+  "coral":#E67161,
   "marron":#785F4E,
+  "marron-claro":#937A69,
   "rosa-oscuro":#D89A9E,
   "rosa-claro":#E5C1C5,
+  "gris": #707070
 );
 $font-family-sans-serif: 'Gotham';
 $blue:    #007bff;
@@ -149,6 +158,7 @@ $yellow:  #ffc107;
 $green:   #28a745;
 $teal:    #20c997;
 $cyan:    #17a2b8;
+$gris: #707070;
 $principal-1: #F8337A;
 $principal-2: #785F4E;
 $principal-3: #B46063;
@@ -179,8 +189,8 @@ $enable-shadows: true;
 
 // Customize some defaults
 
-$body-color: $purple;
-$body-bg: #f5f5f5;
+$body-color: #937A69;
+$body-bg: #FFF;
 $border-radius: .4rem;
 
 @import "bootstrap/scss/root";
@@ -229,7 +239,7 @@ $border-radius: .4rem;
 .btn:hover{
     color: #FFF;
 }
-.btn:is(.btn-primary, .btn-secundario, .btn-marron, .btn-rosa-oscuro, .btn-rosa-claro){
+.btn:is(.btn-primary, .btn-secundario, .btn-marron, .btn-rosa-oscuro, .btn-rosa-claro, .btn-coral){
     box-shadow: none !important;
     border: none !important;
 }
@@ -252,15 +262,18 @@ h1, h2, h3{
 @media(min-width:768px){
     h1, h2, h3{
         line-height: 8rem;
+        margin-top: -25px;
     }
 }
 h4,h5,h6{
     font-family: 'Gotham';
-    font-size: 17px;
+    font-size: 1.3rem;
     font-weight: bold;
     color: $principal-3;
 }
-
+h5,h6{
+    font-size: 1rem;
+}
 // Style Bootstrap icons
 .bi {
   fill: currentColor;
@@ -302,4 +315,61 @@ h4.titulo-cards-dashboard {
     font-size: 1.5em;
     min-height: 75px;
     padding: 0 1em;
+}
+
+//
+// Paginacion Blog Dashboard
+//
+.pagination-blog .page-link {
+    position: relative;
+    display: block;
+    padding: .5rem 1.3rem;
+    margin-left: -1px;
+    line-height: 2;
+    color: #B46063;
+    background-color: transparent;
+    border: 1px solid #B46063;
+    width: 50px;
+    height: 50px;
+    border-radius: 50% !important;
+}
+.pagination-blog .page-item.active .page-link{
+    z-index: 3;
+    color: #fff;
+    background-color: #B46063;
+    border-color: #B46063;
+}
+.pagination-blog li.page-item {
+    margin: 0 5px;
+}
+.pagination-blog .page-item:first-child .page-link, .pagination-blog .page-item:last-child .page-link{
+    padding: 7px 15px !important;
+}
+.pagination-blog .page-link:focus{
+    box-shadow: none !important;
+}
+
+//
+// Checkout Page
+//
+.breadcrumb.custom{
+    background-color: transparent;
+    justify-content: center;
+}
+::placeholder{
+    color: #B9B9B9 !important;
+}
+.title-divider{
+    position: relative;
+}
+.title-divider::after{
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 8px;
+    background: url(../assets/img/separador-svg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
 }
