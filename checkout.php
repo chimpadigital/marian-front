@@ -1,22 +1,17 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/starter.css">
     <link rel="stylesheet" href="assets/css/estilos.css">
     <title>Mariann</title>
-  </head>
-  <body>
-    <header>
-        <div class="container">
-            <div class="row shadow-sm">
-                <div class="col-md-12">
-                    <div class="text-center">Header</div>
-                </div>
-            </div>
-        </div>
-    </header>
+</head>
+
+<body>
+    
+    <?php include 'header.php';?> 
 
     <div class="container">
         <div class="col-md-12">
@@ -24,11 +19,11 @@
                 <h2>Finalizar Pedido</h2>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb custom">
-                      <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-                      <li class="breadcrumb-item active" aria-current="page">Checkout</li>
+                        <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Checkout</li>
                     </ol>
                 </nav>
-            </div>            
+            </div>
         </div>
     </div>
 
@@ -37,29 +32,30 @@
             <div class="col-md-8">
                 <h4 class="title-divider text-marron-claro">Sólo un paso más</h4>
                 <img src="assets/img/separador-svg.svg" alt="">
-                <p class="mt-2">Una vez registrados tus datos y realizado el pago, recibirás un email con el detalle de tu compra y serás redirigida a un calendario para programa nuestro primer encuentro</p>
+                <p class="mt-2">Una vez registrados tus datos y realizado el pago, recibirás un email con el detalle de
+                    tu compra y serás redirigida a un calendario para programa nuestro primer encuentro</p>
                 <form>
                     <div class="form-row">
-                      <div class="form-group col-md-6">
-                        <label class="font-weight-bold text-rosa-oscuro" for="nombre">Nombre</label>
-                        <input type="text" class="form-control" id="nombre" placeholder="Nombre">
-                      </div>
-                      <div class="form-group col-md-6">
-                        <label class="font-weight-bold text-rosa-oscuro" for="apellido">Apellido</label>
-                        <input type="text" class="form-control" id="apellido" placeholder="Apellido">
-                      </div>
+                        <div class="form-group col-md-6">
+                            <label class="font-weight-bold text-rosa-oscuro" for="nombre">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label class="font-weight-bold text-rosa-oscuro" for="apellido">Apellido</label>
+                            <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                        </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                          <label class="font-weight-bold text-rosa-oscuro" for="email">Correo electrónico</label>
-                          <input type="email" class="form-control" id="email" placeholder="Correo electrónico">
+                            <label class="font-weight-bold text-rosa-oscuro" for="email">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="Correo electrónico">
                         </div>
                         <div class="form-group col-md-6">
-                          <label class="font-weight-bold text-rosa-oscuro" for="whatsapp">Whatsapp</label>
-                          <input type="text" class="form-control" id="whatsapp" placeholder="Whatsapp">
+                            <label class="font-weight-bold text-rosa-oscuro" for="whatsapp">Whatsapp</label>
+                            <input type="text" class="form-control" id="whatsapp" placeholder="Whatsapp">
                         </div>
-                      </div>                   
-                  </form>
+                    </div>
+                </form>
             </div>
             <div class="col-md-4">
                 <div class="shadow-lg rounded-lg p-4 my-4 my-md-0">
@@ -116,19 +112,10 @@
         </div>
     </div>
 
-    <footer>
-        <div class="container">
-            <div class="row shadow-sm">
-                <div class="col-md-12">
-                    <div class="text-center">
-                        Footer
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>   
+    <?php include 'footer.php';?>     
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script type="module" src="assets/js/starter.js"></script>
-  </body>
+</body>
+
 </html>

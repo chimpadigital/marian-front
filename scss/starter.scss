@@ -126,7 +126,7 @@
     font-weight: 900;
     font-style: normal;
 }
-$border-radius: 2rem;
+$border-radius: 1.2rem;
 $border-radius-lg: 1.3rem;
 $box-shadow-lg: 0 .3rem 1rem rgba(#000, .175);
 $input-btn-padding-y:         .775rem;
@@ -134,7 +134,7 @@ $input-btn-padding-x:         1rem;
 $breadcrumb-divider: quote(">");
 $input-color: #937A69;
 $input-border-color: #937A69;
-
+$border-width: 2px;
 
 
 $theme-colors: (
@@ -170,6 +170,7 @@ $nude: #E2D9CC;
 $custom-colo-9: #E5C1C5;
 $custom-colo-10: #E5D9D1;
 $custom-colo-11: #EDE7E4;
+
 
 // Option 2
 //
@@ -232,8 +233,8 @@ $border-radius: .4rem;
 //
 // Custom styles & Utilities
 //
+
 .btn{
-    color: #FFF;
     font-weight: 500;
 }
 .btn:hover{
@@ -261,8 +262,7 @@ h1, h2, h3{
 }
 @media(min-width:768px){
     h1, h2, h3{
-        line-height: 8rem;
-        margin-top: -25px;
+        line-height: 8rem;        
     }
 }
 h4,h5,h6{
@@ -280,8 +280,38 @@ h5,h6{
 }
 
 //
+// Header
+//
+
+.top-bar{
+    background-color: $custom-colo-11
+}
+.bajada-logo{
+    font-size: 12px !important;
+}
+.navbar.main-navigation .nav-link, .navbar.main-navigation .dropdown-item, .top-bar h6{
+    font-size: 14px !important;
+}
+
+//
+// Footer
+//
+footer, footer a{
+    background-color: $custom-colo-11;
+    color: $principal-2 !important;
+    font-size: 14px  !important;
+}
+footer p.date-input{
+    color: $custom-colo-7;
+}
+footer hr{
+    border-color: #CCB4A3;
+    border-width: 1px !important;
+}
+//
 // Navegacion Dashboard
 //
+
 .border-2{
     border-top: 2px solid;
 }
@@ -303,14 +333,18 @@ h5,h6{
 .nav-dashboard .rounded-lg {
     border-radius: 1.3rem !important;
 }
-.nav-dashboard .nav-link[aria-expanded=true].dropdown-toggle::after{
+.nav-dashboard .nav-link[aria-expanded=true].dropdown-toggle::after, .main-navigation .nav-link[aria-expanded=true].dropdown-toggle::after{
     transform: rotate(180deg);
     transition: all .3s;
+}
+.main-navigation .dropdown-toggle::after{
+    color: #B46063 !important;
 }
 
 //
 // Cards Principales Dashboard
 //
+
 h4.titulo-cards-dashboard {
     font-size: 1.5em;
     min-height: 75px;
