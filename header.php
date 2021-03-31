@@ -1,6 +1,6 @@
 <header>
 
-    <div class="top-bar py-2">
+    <div class="top-bar py-2 d-none d-md-block">
         <div class="container">
             <div class="row">
                 <div class="col-9 col-md-9 pl-0 d-flex flex-row align-items-center">
@@ -91,7 +91,7 @@
                         <h6 class="font-weight-normal text-center bajada-logo">Consultora de marcas auténticas</h6>
                     </div>
                 </div>
-                <div class="col-md-5 d-flex align-items-center justify-content-between pr-0 pl-md-5">
+                <div class="col-md-5 d-md-flex align-items-center justify-content-between pr-0 pl-md-5 d-none">
                     <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="19.374" height="18.562"
                             viewBox="0 0 19.374 18.562">
                             <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart"
