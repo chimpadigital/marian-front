@@ -353,6 +353,13 @@ footer hr{
 .main-navigation .dropdown-toggle::after{
     color: #B46063 !important;
 }
+@media (min-width:768px){
+    .dashboard-fixed{
+        max-height: 100vh;
+        position: fixed;
+        width: 23%;
+    }
+}
 
 //
 // Cards Principales Dashboard
@@ -397,6 +404,16 @@ h4.titulo-cards-dashboard {
 }
 
 //
+// Carrito Page
+//
+@media (min-width:768px){
+    .borde-servicios{
+        border-left: 2px solid #E1E6E9;
+    }
+}
+
+
+//
 // Checkout Page
 //
 .breadcrumb.custom{
@@ -405,6 +422,7 @@ h4.titulo-cards-dashboard {
 }
 ::placeholder{
     color: #B9B9B9 !important;
+    font-size: 16px;
 }
 .title-divider{
     position: relative;
@@ -440,3 +458,4 @@ h4.titulo-cards-dashboard {
 .tabla-carrito h5{
     font-size: 1.2rem;
 }
+

@@ -1,4 +1,4 @@
-<div class="px-3 py-5 h-100 d-flex flex-column justify-content-between">
+<div class="px-3 py-5 h-100 dashboard-fixed d-flex flex-column justify-content-between">
                 <div>
                     <img class="img-fluid w-75" src="../assets/img/logo-dash-blanco.svg" alt="" />
                     <!-- A vertical navbar -->
