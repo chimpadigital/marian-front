@@ -29,14 +29,14 @@
                 <!-- TABS -->
                 <div class="row">
                     <div class="col-md-12">
-                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <ul class="nav nav-tabs" id="tabMentoria" role="tablist">
                             <li class="nav-item" role="presentation">
-                                <a class="nav-link active" id="asesoria-tab" data-toggle="tab" href="#asesoria"
-                                    role="tab" aria-controls="home" aria-selected="true">Asesoría Personalizada</a>
+                                <a class="nav-link active border-0 text-marron-claro font-weight-bold" id="asesoria-tab" href="servicios_mentoriaTab1.php"
+                                >Asesoría Personalizada</a>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <a class="nav-link" id="mentoria-tab" data-toggle="tab" href="#mentoria" role="tab"
-                                    aria-controls="profile" aria-selected="false">Mentoría grupal</a>
+                                <a class="nav-link text-marron-claro font-weight-bold border-0" id="mentoria-tab" href="servicios_mentoriaTab2.php"
+                                >Mentoría grupal</a>
                             </li>
                         </ul>
                         <div class="tab-content" id="myTabContent">
@@ -63,7 +63,7 @@
                                         <h4 class="text-rosa-claro">Sobre la experiencia</h4>
                                         <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
                                     </div>
-                                </div>                                
+                                </div>
 
                                 <div class="row my-4">
                                     <div class="col-md-12">
@@ -81,9 +81,7 @@
                                 </div>
 
                             </div>
-                            <div class="tab-pane fade" id="mentoria" role="tabpanel" aria-labelledby="mentoria-tab">
-                                ...
-                            </div>
+                            
 
                         </div>
                     </div>

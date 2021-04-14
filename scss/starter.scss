@@ -135,11 +135,12 @@ $breadcrumb-divider: quote(">");
 $input-color: #937A69;
 $input-border-color: #937A69;
 $border-width: 2px;
-$custom-control-indicator-size: 2rem;
+$custom-control-indicator-size: 1.5rem;
 
 $theme-colors: (
   "primary": #F8337A,
   "secondary": #B46063,
+  "crema-suave":#FBF8F6,
   "coral":#E67161,
   "marron":#785F4E,
   "marron-claro":#937A69,
@@ -244,6 +245,11 @@ $border-radius: .4rem;
 }
 .btn-verde{
     color: #FFF;
+}
+button.btn.btn-blanco {
+    border: 2px solid #F8337A;
+    color: #F8337A;
+    background: #FFF;
 }
 .btn:is(.btn-primary, .btn-secundario, .btn-marron, .btn-rosa-oscuro, .btn-rosa-claro, .btn-coral, .btn-verde){
     box-shadow: none !important;
@@ -403,29 +409,68 @@ h4.titulo-cards-dashboard {
     box-shadow: none !important;
 }
 
-/* for md */
-
-.custom-switch.custom-switch-md .custom-control-label {
-    padding-left: 2rem;
-    padding-bottom: 1.5rem;
+//
+// Servicios: Mentoria
+//
+#tabMentoria.nav-tabs .nav-link.active, #tabMentoria.nav-tabs .nav-item.show .nav-link{
+    border-bottom: 2px solid #937A69 !important;
 }
 
-.custom-switch.custom-switch-md .custom-control-label::before {
-    height: 1.5rem;
-    width: calc(2rem + 0.75rem);
-    border-radius: 3rem;
+//
+// Home Page
+//
+h4.titulo-home{
+    font-size: 2em;
 }
-
-.custom-switch.custom-switch-md .custom-control-label::after {
-    width: calc(1.5rem - 4px);
-    height: calc(1.5rem - 4px);
-    border-radius: calc(2rem - (1.5rem / 2));
+h5.titulo-home{
+    font-size: 1.4em;
 }
-
-.custom-switch.custom-switch-md .custom-control-input:checked ~ .custom-control-label::after {
-    transform: translateX(calc(1.5rem - 0.25rem));
+h6.titulo-home{
+    font-size: 1.2em;
 }
-
+@media (min-width:768px){
+    .container.sobre-mi{
+        margin-top: -35px;
+    }
+    .banner-home-1{
+        margin-top: -55px;
+    }
+    .card-propuestas p.card-text{
+        min-height: 120px;
+    }
+    .card-propuestas:hover{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border: none !important;
+        border-bottom: 2px solid #B46063 !important;
+        transform: translateY(-40px);
+        transition: all .3s;
+    }
+    .igualar-altura-blog{
+        height: 100px;
+    }
+}
+.banner-home-1{
+    min-height: 400px;
+    background: url(../img/banner-home-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.banner-eleva-tu-marca{
+    min-height: 147px;
+    background: url(../img/bg-banner-eleva-tu-marca.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+p.entry-date{
+    color: $custom-colo-7;
+}
+.entry-post hr{
+    border-color: $custom-colo-10;
+    border-width: 1px;
+}
 //
 // Carrito Page
 //
@@ -434,7 +479,6 @@ h4.titulo-cards-dashboard {
         border-left: 2px solid #E1E6E9;
     }
 }
-
 
 //
 // Checkout Page
@@ -481,4 +525,3 @@ h4.titulo-cards-dashboard {
 .tabla-carrito h5{
     font-size: 1.2rem;
 }
-
