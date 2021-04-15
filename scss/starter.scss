@@ -141,13 +141,16 @@ $theme-colors: (
   "primary": #F8337A,
   "secondary": #B46063,
   "crema-suave":#FBF8F6,
+  "crema-suave-2": #EDE7E4,
   "coral":#E67161,
   "marron":#785F4E,
   "marron-claro":#937A69,
   "rosa-oscuro":#D89A9E,
   "rosa-claro":#E5C1C5,
   "gris": #707070,
+  "nude": #E2D9CC,
   "verde":#9DDCB0,
+  "white":#FFF,
 );
 $font-family-sans-serif: 'Gotham';
 $blue:    #007bff;
@@ -250,6 +253,9 @@ button.btn.btn-blanco {
     border: 2px solid #F8337A;
     color: #F8337A;
     background: #FFF;
+}
+button.btn.btn-outline-white:hover{
+    color: $principal-2;
 }
 .btn:is(.btn-primary, .btn-secundario, .btn-marron, .btn-rosa-oscuro, .btn-rosa-claro, .btn-coral, .btn-verde){
     box-shadow: none !important;
@@ -435,6 +441,9 @@ h6.titulo-home{
     .banner-home-1{
         margin-top: -55px;
     }
+    .card-propuestas{
+        transition: all .3s;
+    }
     .card-propuestas p.card-text{
         min-height: 120px;
     }
@@ -470,6 +479,66 @@ p.entry-date{
 .entry-post hr{
     border-color: $custom-colo-10;
     border-width: 1px;
+}
+.bg-textura-form{
+    background: url(../img/bg-form-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.btn-social-group {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: all .3s;
+}
+.btn-social-group:hover {
+    background: #B46063;
+    transition: all .3s;
+}
+.form-home .form-control{
+    border: 1px solid $custom-colo-7;
+    background: transparent;
+    color: $custom-colo-7;
+}
+.contenedor-form-home{
+    margin-bottom: -5%;
+}
+@media (max-width:768px){
+    .contenedor-form-home{
+        margin-bottom: -10%;
+    }
+}
+
+//
+// Sobre mi Page
+//
+
+.portada-sobre-mi{
+    background: url(../img/portada-sobre-mi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.contenedor-testimonios{
+    background: url(../img/bg-testimonios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.contenedor-testimonios .carousel-item{
+    text-align: center;
+}
+.contenedor-testimonios .carousel-indicators{
+    bottom: -40px;
+}
+@media (min-width:768px){
+    .portada-sobre-mi{
+        height: 70vh;
+    }
+    .descripcion-testimonio{
+        min-height: 75px;
+    }
 }
 //
 // Carrito Page
