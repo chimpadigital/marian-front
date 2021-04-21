@@ -145,6 +145,7 @@ $theme-colors: (
   "coral":#E67161,
   "marron":#785F4E,
   "marron-claro":#937A69,
+  "marron-claro-2":#CCB4A3,
   "rosa-oscuro":#D89A9E,
   "rosa-claro":#E5C1C5,
   "gris": #707070,
@@ -271,11 +272,20 @@ a, a:hover{
 .bg-nude{
     background-color: $nude;
 }
-h1, h2, h3{
+h1, h2{
   font-family: 'Reinata';
   font-size: 8em;
   color: $principal-3;
   line-height: 4rem;
+}
+h3{
+  font-family: 'Reinata';
+  font-size: 6em;
+  color: $principal-3;
+  line-height: 4rem;
+}
+.line-h-low{
+    line-height: 4rem !important;
 }
 @media(min-width:768px){
     h1, h2, h3{
@@ -538,6 +548,249 @@ p.entry-date{
     }
     .descripcion-testimonio{
         min-height: 75px;
+    }
+}
+//
+// Test Page
+//
+.seccion-cinco-pilares {
+    padding-top: 7%;
+    margin-top: -5.9%;
+}
+
+@media (min-width:768px){
+    .seccion-cinco-pilares {
+        padding-top: 7%;
+        margin-top: -3.9%;
+    }
+    .contenedor-cinco-pilares h5{
+        max-width: 175px;
+        min-height: 76px;
+    }
+}
+//
+// Test Form Page
+//
+#pills-form-test .nav-link.active h5{
+    color: #FFF !important;
+}
+#pills-form-test .nav-link.active{
+    background-color: #B46063 !important;
+}
+.numerito-form{    
+    width: 70px;
+    height: 67px;
+    background: url(../img/bg-numeritos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.bg-textura-form-test{
+    background: url(../img/bg-tu-resutlado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#result-test .form-control{
+    background: #FFF;
+    color: #B9B9B9;
+    border-color: #937A69;
+}
+@media (min-width:768px){
+    .opcion-step-5 {
+        max-width: 250px;
+        min-width: 188px;
+        margin: 0 20px;
+    }
+}
+
+//
+// Servicios Page
+//
+.portada-servicios{
+    background: url(../img/servicios-img-portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#pills-vertical .nav-link.active{
+    position: relative;
+}
+#pills-vertical .nav-link.active svg{
+    display: block !important;
+}
+#pills-vertical .nav-link {
+    display: block;
+    padding: 0.9rem 1.4rem;
+}
+#brandsCarousel .carousel-control-prev, #brandsCarousel .carousel-control-next{
+    width: 0%;
+}
+
+@media (min-width:768px){
+    .portada-servicios{
+        min-height: 600px;
+    }
+    #brandsCarousel .row.align-items-center{
+        min-height: 120px;
+    }
+}
+
+//
+// Asesoria Page
+//
+.breadcrumb-item+.breadcrumb-item::before {
+    float: left;
+    padding-right: .5rem;
+    color: #937A69;
+    content: ">";
+}
+#sobreExperiencias{
+    background: url(../img/servicios-sobreExperiencias-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#carouselAsesoria .card{
+    transition: all .3s;
+}
+#carouselAsesoria .carousel-indicators li{
+    background-color: #B46063;
+}
+#carouselAsesoria .carousel-indicators{
+    bottom: -30px;
+}
+
+#asesoriaTabs .nav-link.active, #asesoriaTabs .show>.nav-link {
+    color: #fff;
+    background-color: #B46063;
+}
+img.icon-tab{
+    max-width: 38px;
+}
+.asesoria-tabs-bloque-img-1{
+    background: url(../img/asesoria-img-tab-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.asesoria-tabs-bloque-img-2{
+    background: url(../img/asesoria-img-tab-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.asesoria-tabs-bloque-img-3{
+    background: url(../img/asesoria-img-tab-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.asesoria-tabs-bloque-img-4{
+    background: url(../img/asesoria-img-tab-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.asesoria-tabs-bloque-img-5{
+    background: url(../img/asesoria-img-tab-5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#banner-asesoria-eleva{
+    position: relative;
+}
+.ultimo-contenedor {
+    margin-bottom: -5%;
+}
+
+@media (min-width:768px){
+    #banner-asesoria-eleva::after{
+        content: '';
+        position: absolute;
+        width: 178px;
+        height: 227px;
+        right: 0;
+        top: -245px;
+        background: url(../img/asesoria-manchitas-color.png);
+    }
+    #sobreExperiencias{
+        min-height: 500px;
+    }
+    #carouselAsesoria .card-body p{
+        min-height: 120px;
+    }
+    #carouselAsesoria .card:hover{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border: none !important;
+        border-bottom: 2px solid #B46063 !important;
+        transform: translateY(-30px);
+        transition: all .3s;
+    }
+    #asesoriaTabs .nav-item{
+        border: 1px solid #B46063;
+        min-width: 205px;
+    }
+    #asesoriaTabs li:first-child{
+        border-top-left-radius:  1rem;
+        border-bottom-left-radius:  1rem;
+    }
+    #asesoriaTabs li:last-child{
+        border-top-right-radius:  1rem;
+        border-bottom-right-radius:  1rem;
+    }
+    #asesoriaTabs:not(:first-child) .nav-link.active, #asesoriaTabs:not(:last-child) .nav-link.active{
+        border-radius: 0;
+    }
+    #asesoriaTabs .nav-link{
+        padding: 18px;
+    }
+    #asesoriaTabs .nav-item:first-child .nav-link{
+        border-top-left-radius:  1rem;
+        border-bottom-left-radius:  1rem;
+        border-radius: 0.8rem 0 0 0.8rem;
+        border-right: 0;
+    }
+    #asesoriaTabs .nav-item:last-child .nav-link{
+        border-top-right-radius:  1rem;
+        border-bottom-right-radius:  1rem;
+        border-radius: 0 0.8rem 0.8rem 0;
+        border-left: 0;
+    }
+    #asesoriaTabs.nav-pills{
+        justify-content: center;
+    }
+}
+@media (max-width:768px){
+    #asesoriaTabs .nav-item{
+        width: 50%;
+    }
+    .ultimo-contenedor {
+        margin-bottom: -10%;
+    }
+}
+
+//
+// Mentoria Page
+//
+#mentoria-portada{
+    background: url(../img/mentoria-img-portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 450px;
+}
+#mentoria-propuestas{
+    background: url(../img/mentoria-manchitas-left.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom left;
+}
+@media (min-width:768px){
+    #mentoria-propuestas{
+        height: 600px;
     }
 }
 //
