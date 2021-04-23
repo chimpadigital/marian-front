@@ -30,9 +30,9 @@
 
   <div class="container mt-5">
     <div class="row">
-      <div class="col-md-5"></div>
-      <div class="col-md-7">
-        <h4 class="font-weight-bold titulo-home mb-4">Consultorías Estratégicas</h4>
+      <div class="col-md-5"><img class="w-100 img-fluid" src="assets/img/asesoria-img-portada.png" alt=""></div>
+      <div class="col-md-7 pl-md-5">
+        <h4 class="font-weight-bold titulo-home mb-4 mt-4 mt-md-0">Consultorías Estratégicas</h4>
         <p>
           Te ayudo a potenciar tu estrategia digital resaltando la esencia y los valores de tu marca. <br>
           Nos encontramos durante 2 horas y luego trabajamos juntas por 7 días. <br>
@@ -63,7 +63,7 @@
   <div class="d-flex align-items-center" id="sobreExperiencias">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 text-center py-5 py-md-0">
           <h4 class="text-white titulo-home">Sobre las experiencias</h4>
           <img src="assets/img/separador-titulo-blanco-svg.svg" alt="">
           <p class="text-white my-5 mx-md-5">Trabajamos juntas en encuentros de aproximadamente 2 horas. Todas las
@@ -280,11 +280,11 @@
                     La estrategia de comunicación digital</li>
                 </ul>
                 <h5 class="text-primary mt-4 mb-4">¡Quiero reservar mi encuentro!</h5>
-                <a class="btn btn-primary" href="">Click aquí</a>
+                <a class="btn btn-primary mb-4 mb-md-0" href="">Click aquí</a>
               </div>
               <div class="col-md-6">
                 <div
-                  class="asesoria-tabs-bloque-img-1 d-flex flex-column align-items-center justify-content-center h-100 rounded">
+                  class="p-4 p-md-0 asesoria-tabs-bloque-img-1 d-flex flex-column align-items-center justify-content-center h-100 rounded">
                   <h4 class="text-white text-medium titulo-home">Eleva tu esencia</h4>
                   <a class="btn btn-sm p-2 btn-white text-primary rounded-pill mt-3" href="">¡Quiero reservar mi
                     encuentro!</a>
@@ -344,11 +344,11 @@
                       Estrategia de contenido para conectar con tu audiencia</li>
                   </ul>
                   <h5 class="text-primary mt-4 mb-4">¡Quiero reservar mi encuentro!</h5>
-                  <a class="btn btn-primary" href="">Click aquí</a>
+                  <a class="btn btn-primary mb-4 mb-md-0" href="">Click aquí</a>
               </div>
               <div class="col-md-6">
                 <div
-                  class="asesoria-tabs-bloque-img-2 d-flex flex-column align-items-center justify-content-center h-100 rounded">
+                  class="p-4 p-md-0 asesoria-tabs-bloque-img-2 d-flex flex-column align-items-center justify-content-center h-100 rounded">
                   <h4 class="text-white text-medium titulo-home">Enamorá a tu audiencia</h4>
                   <a class="btn btn-sm p-2 btn-white text-primary rounded-pill mt-3" href="">¡Quiero reservar mi
                     encuentro!</a>
@@ -422,11 +422,11 @@
                     La creación de un calendario contenido para la marca</li>
                 </ul>
                 <h5 class="text-primary mt-4 mb-4">¡Quiero reservar mi encuentro!</h5>
-                <a class="btn btn-primary" href="">Click aquí</a>
+                <a class="btn btn-primary mb-4 mb-md-0" href="">Click aquí</a>
               </div>
               <div class="col-md-6">
                 <div
-                  class="asesoria-tabs-bloque-img-3 d-flex flex-column align-items-center justify-content-center h-100 rounded">
+                  class="p-4 p-md-0 asesoria-tabs-bloque-img-3 d-flex flex-column align-items-center justify-content-center h-100 rounded">
                   <h4 class="text-white text-medium titulo-home">Contenido para Inspirar</h4>
                   <a class="btn btn-sm p-2 btn-white text-primary rounded-pill mt-3" href="">¡Quiero reservar mi
                     encuentro!</a>
@@ -500,11 +500,11 @@
                     Estrategia de lanzamiento omnicanal</li>
                 </ul>
                 <h5 class="text-primary mt-4 mb-4">¡Quiero reservar mi encuentro!</h5>
-                <a class="btn btn-primary" href="">Click aquí</a>
+                <a class="btn btn-primary mb-4 mb-md-0" href="">Click aquí</a>
               </div>
               <div class="col-md-6">
                 <div
-                  class="asesoria-tabs-bloque-img-4 d-flex flex-column align-items-center justify-content-center h-100 rounded">
+                  class="p-4 p-md-0 asesoria-tabs-bloque-img-4 d-flex flex-column align-items-center justify-content-center h-100 rounded">
                   <h4 class="text-white text-medium titulo-home">Comunicá, conectá y lanzá</h4>
                   <a class="btn btn-sm p-2 btn-white text-primary rounded-pill mt-3" href="">¡Quiero reservar mi
                     encuentro!</a>
@@ -609,11 +609,11 @@
                     Quiero contar con una mirada objetiva hacia mi marca.</li>
                 </ul>
                 <h5 class="text-primary mt-4 mb-4">¡Quiero reservar mi encuentro!</h5>
-                <a class="btn btn-primary" href="">Click aquí</a>
+                <a class="btn btn-primary mb-4 mb-md-0" href="">Click aquí</a>
               </div>
               <div class="col-md-6">
                 <div
-                  class="asesoria-tabs-bloque-img-5 d-flex flex-column align-items-center justify-content-center h-100 rounded">
+                  class="p-4 p-md-0 asesoria-tabs-bloque-img-5 d-flex flex-column align-items-center justify-content-center h-100 rounded">
                   <h4 class="text-white text-medium titulo-home">Hoja de ruta</h4>
                   <a class="btn btn-sm p-2 btn-white text-primary rounded-pill mt-3" href="">¡Quiero reservar mi
                     encuentro!</a>
