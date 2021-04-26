@@ -69,9 +69,9 @@
                                         Trabajá conmigo
                                     </a>
                                     <div class="dropdown-menu border-0" aria-labelledby="trabajaConmigo">
-                                        <a class="dropdown-item" href="servicios.php">Consultorías Personalizadas</a>
-                                        <a class="dropdown-item" href="servicios.php">Mentoría</a>
-                                        <a class="dropdown-item" href="servicios.php">Talleres y Eventos</a>
+                                        <a class="dropdown-item" href="asesoria.php">Consultorías Personalizadas</a>
+                                        <a class="dropdown-item" href="mentira.php">Mentoría</a>
+                                        <a class="dropdown-item" href="talleres-y-eventos.php">Talleres y Eventos</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">

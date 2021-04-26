@@ -21,7 +21,7 @@
                     <div class="col-md-12">
                         <div class="d-flex flex-row align-items-center justify-content-between">
                             <h2>Blog</h2>
-                            <a href=""><button class="btn btn-primary">Nuevo artículo</button></a>
+                            <a href="blog_newPost.php"><button class="btn btn-primary">Nuevo artículo</button></a>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                     </div>
                     <div class="col-4 col-md-3 d-flex align-items-center">
                         <div class="">
-                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="46.952" height="46.952"
+                            <a href="blog_editPost.php"><svg xmlns="http://www.w3.org/2000/svg" width="46.952" height="46.952"
                                     viewBox="0 0 46.952 46.952">
                                     <g id="Button" transform="translate(-879.253 -2498.988)">
                                         <path id="Background"
@@ -87,7 +87,7 @@
                     </div>
                     <div class="col-4 col-md-3 d-flex align-items-center">
                         <div class="">
-                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="46.952" height="46.952"
+                            <a href="blog_editPost.php"><svg xmlns="http://www.w3.org/2000/svg" width="46.952" height="46.952"
                                     viewBox="0 0 46.952 46.952">
                                     <g id="Button" transform="translate(-879.253 -2498.988)">
                                         <path id="Background"
@@ -127,7 +127,7 @@
                     </div>
                     <div class="col-4 col-md-3 d-flex align-items-center">
                         <div class="">
-                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="46.952" height="46.952"
+                            <a href="blog_editPost.php"><svg xmlns="http://www.w3.org/2000/svg" width="46.952" height="46.952"
                                     viewBox="0 0 46.952 46.952">
                                     <g id="Button" transform="translate(-879.253 -2498.988)">
                                         <path id="Background"
@@ -167,7 +167,7 @@
                     </div>
                     <div class="col-4 col-md-3 d-flex align-items-center">
                         <div class="">
-                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="46.952" height="46.952"
+                            <a href="blog_editPost.php"><svg xmlns="http://www.w3.org/2000/svg" width="46.952" height="46.952"
                                     viewBox="0 0 46.952 46.952">
                                     <g id="Button" transform="translate(-879.253 -2498.988)">
                                         <path id="Background"
@@ -207,7 +207,7 @@
                     </div>
                     <div class="col-4 col-md-3 d-flex align-items-center">
                         <div class="">
-                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="46.952" height="46.952"
+                            <a href="blog_editPost.php"><svg xmlns="http://www.w3.org/2000/svg" width="46.952" height="46.952"
                                     viewBox="0 0 46.952 46.952">
                                     <g id="Button" transform="translate(-879.253 -2498.988)">
                                         <path id="Background"

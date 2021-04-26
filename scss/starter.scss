@@ -262,6 +262,7 @@ button.btn.btn-outline-white:hover{
 .btn:is(.btn-primary, .btn-secundario, .btn-marron, .btn-rosa-oscuro, .btn-rosa-claro, .btn-coral, .btn-verde){
     box-shadow: none !important;
     border: none !important;
+    color: #FFF;
 }
 a, a:hover{
     color: $principal-3;
@@ -891,6 +892,120 @@ img.icon-tab{
 }
 #carouselTYE .carousel-indicators li, #carouselTYE_mobile .carousel-indicators li{
     background-color: #E67161;
+}
+
+//
+// Plantilla Evento Page
+//
+#plantilla-evento{
+    background: url(../img/evento-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+//
+// Descargables Page
+//
+.petalos-right, .petalos-left{
+    position: relative;
+}
+.petalos-right::after{
+    content: '';
+    width: 135px;
+    height: 132px;
+    position: absolute;
+    right: 0;
+    bottom:-45px;
+    background: url(../img/petalos-right.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+}
+.petalos-left::before{
+    content: '';
+    width: 135px;
+    height: 132px;
+    position: absolute;
+    left: 0;
+    bottom:0;
+    background: url(../img/petalos-left.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+}
+.petalos-left.test-form::before{
+    bottom: 50%;
+}
+.petalos-right.test-form::after{
+    bottom: 70%;
+}
+.petalos-right.sobre-mi-section::after{
+    bottom: 20%;
+}
+.petalos-right.cards-trabajemos-juntas::after{
+    top: 70px;
+}
+@media (max-width:768px){
+    .petalos-right.cards-trabajemos-juntas::after{
+        display: none;
+    }
+}
+@media (min-width:768px){
+    p.text-recurso-descargable {
+        min-height: 175px;
+        margin: 0px !important;
+    }
+    .contenedor-recurso{
+        height: 405px;
+    }
+}
+//
+// Blog Page
+//
+.form-border-1-px .form-control{
+    border-width: 1px !important;
+}
+.badge-date {
+    bottom: 2px;
+    left: 30px;
+    background: #B46063;
+    border-radius: 15px 15px 0px 0px;
+    padding: 2px 15px;
+}
+.list-categories li{
+    border-width: 1px !important;
+    margin: 5px 0;
+    padding: 10px 0;
+}
+#portada-entrada{
+    height: 315px;
+    background: url(../img/img-entrada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#badge-category{
+    width: 120px;
+    height: 55px;
+    background: url(../img/entrada-bg-badge-categoria.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+#contenido-entrada{
+    background: url(../img/entrada-mancha-izquierda-inferior.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: bottom left;
+    
+}
+@media (min-width:768px){
+    #contenido-entrada{
+        height: 900px;
+    }
 }
 //
 // Carrito Page

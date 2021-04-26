@@ -26,17 +26,17 @@
             <p>Para comenzar, te propongo que hagas un test sin costo para ayudarte a identificar en qué etapa estás y
               en qué pilar de tu emprendimiento debés enfocarte para mejorar la presencia digital de tu marca y
               potenciar tus resultados. </p>
-            <button class="btn btn-primary">Quiero hacer el test <svg class="ml-2" xmlns="http://www.w3.org/2000/svg"
-                width="7.938" height="13.795" viewBox="0 0 7.938 13.795">
-                <g id="next_1_" data-name="next (1)" transform="translate(0.56 0.56)">
-                  <g id="Grupo_475" data-name="Grupo 475" transform="translate(0 0)">
-                    <path id="Trazado_343" data-name="Trazado 343"
-                      d="M124.475,6.018,118.585.144a.494.494,0,1,0-.7.7l5.54,5.524-5.54,5.524a.494.494,0,0,0,.7.7l5.89-5.874a.493.493,0,0,0,0-.7Z"
-                      transform="translate(-117.742 0)" fill="#fff" stroke="#fff" stroke-width="1" />
+            <a href="test-form.php"><button class="btn btn-primary">Quiero hacer el test <svg class="ml-2"
+                  xmlns="http://www.w3.org/2000/svg" width="7.938" height="13.795" viewBox="0 0 7.938 13.795">
+                  <g id="next_1_" data-name="next (1)" transform="translate(0.56 0.56)">
+                    <g id="Grupo_475" data-name="Grupo 475" transform="translate(0 0)">
+                      <path id="Trazado_343" data-name="Trazado 343"
+                        d="M124.475,6.018,118.585.144a.494.494,0,1,0-.7.7l5.54,5.524-5.54,5.524a.494.494,0,0,0,.7.7l5.89-5.874a.493.493,0,0,0,0-.7Z"
+                        transform="translate(-117.742 0)" fill="#fff" stroke="#fff" stroke-width="1" />
+                    </g>
                   </g>
-                </g>
-              </svg>
-            </button>
+                </svg>
+              </button></a>
           </div>
         </div>
         <div class="col-md-6 d-none d-md-flex align-items-center">
@@ -119,10 +119,12 @@
       <div class="row text-center text-md-left">
         <div class="col-md-9">
           <h4 class="text-white">Haciendo el test, podrás identificar en qué pilar debes enfocarte para avanzar</h4>
-          <p class="text-white">Al finalizar, te regalaré una guía práctica especialmente creada para la etapa en la que tu proyecto se encuentra.</p>
+          <p class="text-white">Al finalizar, te regalaré una guía práctica especialmente creada para la etapa en la que
+            tu proyecto se encuentra.</p>
         </div>
-        <div class="col-md-3 d-flex align-items-center justify-content-center justify-content-md-end"><a href=""><button
-              class="btn btn-sm p-3 btn-white text-primary rounded-pill">¡Quiero hacer el test gratis!</button></a></div>
+        <div class="col-md-3 d-flex align-items-center justify-content-center justify-content-md-end"><a
+            href="test-form.php"><button class="btn btn-sm p-3 btn-white text-primary rounded-pill">¡Quiero hacer el
+              test gratis!</button></a></div>
       </div>
     </div>
   </div>

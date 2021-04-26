@@ -113,7 +113,8 @@
                 <h4 class="text-white mt-2">Jorgelina Vasconi</h4>
                 <h5 class="">Consultora en Porteo y Doula</h5>
                 <h5 class="text-nude">Proceso intensivo de 6 semanas</h5>
-                <p class="text-white mt-4 descripcion-testimonio">"Lo que más me llamó la atención desde el primer encuentro fue la escucha
+                <p class="text-white mt-4 descripcion-testimonio">"Lo que más me llamó la atención desde el primer
+                  encuentro fue la escucha
                   activa.
                   Ella te devuelve en palabras lo que estabas esperando escuchar, es la que te sacude y te hace
                   repensar. Una mujer que potencia la esencia y es feliz con vos".</p>
@@ -123,21 +124,25 @@
                 <h4 class="text-white mt-2">Eugenia Fernandez</h4>
                 <h5 class="">Consultora Fundadora de Utera de Fuego</h5>
                 <h5 class="text-nude">Proceso intensivo de 6 semanas</h5>
-                <p class="text-white mt-4 descripcion-testimonio">"Fue como si algo se destrabara para fluir y crecer. Agradezco mucho la amorosidad y el profesionalismo con el que trabajás, eso lo es TODO."</p>
+                <p class="text-white mt-4 descripcion-testimonio">"Fue como si algo se destrabara para fluir y crecer.
+                  Agradezco mucho la amorosidad y el profesionalismo con el que trabajás, eso lo es TODO."</p>
               </div>
               <div class="carousel-item">
                 <img class="rounded-circle" src="https://via.placeholder.com/75" alt="">
                 <h4 class="text-white mt-2">Melisa Figuera</h4>
                 <h5 class="">Lider en Cruz Naranja y miembro de Grupo Crecer</h5>
                 <h5 class="text-nude">Mentoría Grupal para Emprendedoras</h5>
-                <p class="text-white mt-4 descripcion-testimonio">"Nos hiciste descubrir muchos puntos a tener en cuenta, fortalezas y debilidades y no te guardaste nada. Me quedé con ganas de seguir aprendiendo y compartiendo."</p>
+                <p class="text-white mt-4 descripcion-testimonio">"Nos hiciste descubrir muchos puntos a tener en
+                  cuenta, fortalezas y debilidades y no te guardaste nada. Me quedé con ganas de seguir aprendiendo y
+                  compartiendo."</p>
               </div>
               <div class="carousel-item">
                 <img class="rounded-circle" src="https://via.placeholder.com/75" alt="">
                 <h4 class="text-white mt-2">Graciela Vargas Landrieli</h4>
                 <h5 class="">Contadora – Esp. En emprendedores</h5>
                 <h5 class="text-nude">Mentoría Grupal para Emprendedoras</h5>
-                <p class="text-white mt-4 descripcion-testimonio">"Sentir que todas estamos en el mismo barco remando juntas contra la corriente hacia la misma dirección."</p>
+                <p class="text-white mt-4 descripcion-testimonio">"Sentir que todas estamos en el mismo barco remando
+                  juntas contra la corriente hacia la misma dirección."</p>
               </div>
             </div>
           </div>
@@ -149,69 +154,71 @@
   </div>
 
   <!-- Seccion Cards Trabajemos Juntas -->
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="text-center">
-          <h4 class="titulo-home">Trabajemos Juntas</h4>
-          <img src="assets/img/separador-svg.svg" alt="">
-          <p class="my-4">Construyamos juntas el universo de tu marca de la mano a diversas estrategias de Marketing
-            Digital, Comunicación y Branding que te ayuden a posicionarte a través de una propuesta
-            auténtica y diferente</p>
+  <div class="petalos-right cards-trabajemos-juntas">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="text-center">
+            <h4 class="titulo-home">Trabajemos Juntas</h4>
+            <img src="assets/img/separador-svg.svg" alt="">
+            <p class="my-4">Construyamos juntas el universo de tu marca de la mano a diversas estrategias de Marketing
+              Digital, Comunicación y Branding que te ayuden a posicionarte a través de una propuesta
+              auténtica y diferente</p>
 
-          <h5 class="text-marron-claro titulo-home text-medium">Mis propuestas</h5>
-          <div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="105" height="4"
-              viewBox="0 0 105 4">
-              <defs>
-                <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%"
-                  viewBox="0 0 192 8">
-                  <image width="192" height="8"
-                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAAAICAYAAAHYYMBIAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAmNJREFUeNpiYMABVnTXOSCxG3CwC5DYAtjMAQggfJoVGIgEQLUJuMwDCCBGILEfyAa59kBEaZMjkuR/EA0UY0QzjGhxmBgQNALFG2hhNkAAgRgG2EID2adEihdgi0ZsUUMls8GxwgTE54H4PhZ99UghCNO0HyregCWE+rGYAVL/nkiz/0PFHYg0ez5IDiCAGKEa9iNJOAKj6gCe9IhiMXp0Ywml+UhCikD1D4g0+wNQrSAetaBArEcSEgSq/0Ck2Q+AahXxqAUFWAExfsRi9gWgekM8amFZlgGWgkbBAAKAAGJEzvvIBR2B6gGEF+BLzejlCg3NBuWUCUSoDQBSBkA8AV9OIdNsUE5XINFsUC5cwEhikQLyxHoaFSnoxRUpRQpJxRWJRQqh4grk5gQyzT5AahGUj8ZPIEGvAAH5+Wj8AiqaXU9MbY8DEGqvJeBqQOJrXEKBA6kRMBGNv4AEvYSyZiIafwIVzW5Ey+WkRAChonABmtk4GzBY5A4ABGi/7GoYhIEAnOEACTgYDoaEOhgScDIHlVAcDAebAyTUwrjkWLrm7hJ6vafRxyZ8EO7vuwtT/t+fAn1KM2Ryo6jM9kQVQjAmQzZ892zEBgN9K9k/llWLjftEMGQ/cUbnye+M2MAcGgyG59oyJnDpy4PQyv3BVkwF+s6MA08tb5XYQcleBfYrXfsL2JFI0JR9U9TWasiORILu4xfYV0Xyc2y4i+cadp6/Ps02XkbC/1JNmUrh27NOcMnxoAvm7IFx4F1THkZsp2R3ArvXqBtuoovAXhS50hmyW1QSyv/7UgXCLZ5jw137AaYai9H7B+O8AAAAAElFTkSuQmCC" />
-                </pattern>
-              </defs>
-              <path id="_4" data-name="4" d="M0,0H105V4H0Z" fill="url(#pattern)" />
-            </svg>
+            <h5 class="text-marron-claro titulo-home text-medium">Mis propuestas</h5>
+            <div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="105"
+                height="4" viewBox="0 0 105 4">
+                <defs>
+                  <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%"
+                    viewBox="0 0 192 8">
+                    <image width="192" height="8"
+                      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAAAICAYAAAHYYMBIAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAmNJREFUeNpiYMABVnTXOSCxG3CwC5DYAtjMAQggfJoVGIgEQLUJuMwDCCBGILEfyAa59kBEaZMjkuR/EA0UY0QzjGhxmBgQNALFG2hhNkAAgRgG2EID2adEihdgi0ZsUUMls8GxwgTE54H4PhZ99UghCNO0HyregCWE+rGYAVL/nkiz/0PFHYg0ez5IDiCAGKEa9iNJOAKj6gCe9IhiMXp0Ywml+UhCikD1D4g0+wNQrSAetaBArEcSEgSq/0Ck2Q+AahXxqAUFWAExfsRi9gWgekM8amFZlgGWgkbBAAKAAGJEzvvIBR2B6gGEF+BLzejlCg3NBuWUCUSoDQBSBkA8AV9OIdNsUE5XINFsUC5cwEhikQLyxHoaFSnoxRUpRQpJxRWJRQqh4grk5gQyzT5AahGUj8ZPIEGvAAH5+Wj8AiqaXU9MbY8DEGqvJeBqQOJrXEKBA6kRMBGNv4AEvYSyZiIafwIVzW5Ey+WkRAChonABmtk4GzBY5A4ABGi/7GoYhIEAnOEACTgYDoaEOhgScDIHlVAcDAebAyTUwrjkWLrm7hJ6vafRxyZ8EO7vuwtT/t+fAn1KM2Ryo6jM9kQVQjAmQzZ892zEBgN9K9k/llWLjftEMGQ/cUbnye+M2MAcGgyG59oyJnDpy4PQyv3BVkwF+s6MA08tb5XYQcleBfYrXfsL2JFI0JR9U9TWasiORILu4xfYV0Xyc2y4i+cadp6/Ps02XkbC/1JNmUrh27NOcMnxoAvm7IFx4F1THkZsp2R3ArvXqBtuoovAXhS50hmyW1QSyv/7UgXCLZ5jw137AaYai9H7B+O8AAAAAElFTkSuQmCC" />
+                  </pattern>
+                </defs>
+                <path id="_4" data-name="4" d="M0,0H105V4H0Z" fill="url(#pattern)" />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="row mt-5">
-      <div class="col-md-4">
-        <div class="card border-secondary text-center card-propuestas shadow">
-          <img src="assets/img/card-mentoria-home.svg" class="card-img-top w-25 mx-auto my-4 mb-2" alt="...">
-          <div class="card-body">
-            <h5 class="card-title titulo-home">Mentoría</h5>
-            <p class="card-text">Trabajamos en el universo de tu marca, fortaleciendo los pilares más importantes y
-              consolidando tu presencia digital, de forma grupal o personalizada.</p>
-            <p class="text-primary font-weight-bold">¡Quiero saber más!</p>
-            <a href="#" class="btn btn-primary">Click Aquí</a>
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <div class="card border-secondary text-center card-propuestas shadow">
+            <img src="assets/img/card-mentoria-home.svg" class="card-img-top w-25 mx-auto my-4 mb-2" alt="...">
+            <div class="card-body">
+              <h5 class="card-title titulo-home">Mentoría</h5>
+              <p class="card-text">Trabajamos en el universo de tu marca, fortaleciendo los pilares más importantes y
+                consolidando tu presencia digital, de forma grupal o personalizada.</p>
+              <p class="text-primary font-weight-bold">¡Quiero saber más!</p>
+              <a href="mentoria.php" class="btn btn-primary">Click Aquí</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-4 my-4 my-md-0">
-        <div class="card border-secondary text-center card-propuestas shadow">
-          <img src="assets/img/card-asesoria-home.svg" class="card-img-top w-25 mx-auto my-4 mb-2" alt="...">
-          <div class="card-body">
-            <h5 class="card-title titulo-home">Asesoría Personalizada</h5>
-            <p class="card-text">Te ayudo a potenciar tu estrategia
-              digital resaltando la esencia y los
-              valores de tu marca.</p>
-            <p class="text-primary font-weight-bold">¡Quiero saber más!</p>
-            <a href="#" class="btn btn-primary">Click Aquí</a>
+        <div class="col-md-4 my-4 my-md-0">
+          <div class="card border-secondary text-center card-propuestas shadow">
+            <img src="assets/img/card-asesoria-home.svg" class="card-img-top w-25 mx-auto my-4 mb-2" alt="...">
+            <div class="card-body">
+              <h5 class="card-title titulo-home">Asesoría Personalizada</h5>
+              <p class="card-text">Te ayudo a potenciar tu estrategia
+                digital resaltando la esencia y los
+                valores de tu marca.</p>
+              <p class="text-primary font-weight-bold">¡Quiero saber más!</p>
+              <a href="asesoria.php" class="btn btn-primary">Click Aquí</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card border-secondary text-center card-propuestas shadow">
-          <img src="assets/img/card-talleres-home.svg" class="card-img-top w-25 mx-auto my-4 mb-2" alt="...">
-          <div class="card-body">
-            <h5 class="card-title titulo-home">Talleres y Conferencias</h5>
-            <p class="card-text">Experiencias especialmente creadas
-              para mujeres emprendedoras y
-              profesionales con visión de
-              crecimiento.</p>
-            <p class="text-primary font-weight-bold">¡Quiero saber más!</p>
-            <a href="#" class="btn btn-primary">Click Aquí</a>
+        <div class="col-md-4">
+          <div class="card border-secondary text-center card-propuestas shadow">
+            <img src="assets/img/card-talleres-home.svg" class="card-img-top w-25 mx-auto my-4 mb-2" alt="...">
+            <div class="card-body">
+              <h5 class="card-title titulo-home">Talleres y Conferencias</h5>
+              <p class="card-text">Experiencias especialmente creadas
+                para mujeres emprendedoras y
+                profesionales con visión de
+                crecimiento.</p>
+              <p class="text-primary font-weight-bold">¡Quiero saber más!</p>
+              <a href="talleres-y-conferencias.php" class="btn btn-primary">Click Aquí</a>
+            </div>
           </div>
         </div>
       </div>

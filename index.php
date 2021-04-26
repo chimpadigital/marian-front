@@ -39,26 +39,28 @@
   <!-- Portada Home -->
 
   <!-- Seccion Sobre Mi -->
-  <div class="container sobre-mi">
-    <div class="row">
-      <div class="col-md-5">
-        <img class="img-fluid d-none d-md-block" src="assets/img/celu.png" alt="">
-      </div>
-      <div class="col-md-7">
-        <div
-          class="d-flex flex-column align-items-center align-items-md-baseline text-center text-md-left justify-content-center h-100">
-          <h4 class="titulo-home mt-4 mt-md-0">¡Hola por aquí!</h4>
-          <img src="assets/img/separador-svg.svg" alt="">
-          <h5 class="mt-4 my-3 text-marron text-medium titulo-home">¡Qué lindo encontrarte en este espacio!</h5>
-          <p class="mb-3 text-marron">Para comenzar, te propongo que hagas un test sin costo para ayudarte a
-            identificar en qué etapa estás y, en cuál pilar de tu emprendimiento debes enfocarte para mejorar la
-            presencia digital de tu marca y potenciar tus resultados</p>
-          <h5 class="my-3 text-medium">¡Quiero hacer el test!</h5>
-          <button class="btn btn-primary mb-5 mb-md-0">Iniciar ahora <svg xmlns="http://www.w3.org/2000/svg" width="17"
-              height="17" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-              <path fill-rule="evenodd"
-                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-            </svg></button>
+  <div class="petalos-right sobre-mi-section">
+    <div class="container sobre-mi">
+      <div class="row">
+        <div class="col-md-5">
+          <img class="img-fluid d-none d-md-block" src="assets/img/celu.png" alt="">
+        </div>
+        <div class="col-md-7">
+          <div
+            class="d-flex flex-column align-items-center align-items-md-baseline text-center text-md-left justify-content-center h-100">
+            <h4 class="titulo-home mt-4 mt-md-0">¡Hola por aquí!</h4>
+            <img src="assets/img/separador-svg.svg" alt="">
+            <h5 class="mt-4 my-3 text-marron text-medium titulo-home">¡Qué lindo encontrarte en este espacio!</h5>
+            <p class="mb-3 text-marron">Para comenzar, te propongo que hagas un test sin costo para ayudarte a
+              identificar en qué etapa estás y, en cuál pilar de tu emprendimiento debes enfocarte para mejorar la
+              presencia digital de tu marca y potenciar tus resultados</p>
+            <h5 class="my-3 text-medium">¡Quiero hacer el test!</h5>
+            <a href="text-form.php"><button class="btn btn-primary mb-5 mb-md-0">Iniciar ahora <svg xmlns="http://www.w3.org/2000/svg" width="17"
+                height="17" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+              </svg></button></a>
+          </div>
         </div>
       </div>
     </div>
@@ -152,7 +154,7 @@
             <p class="card-text">Trabajamos en el universo de tu marca, fortaleciendo los pilares más importantes y
               consolidando tu presencia digital, de forma grupal o personalizada.</p>
             <p class="text-primary font-weight-bold">¡Quiero saber más!</p>
-            <a href="#" class="btn btn-primary">Click Aquí</a>
+            <a href="mentoria.php" class="btn btn-primary">Click Aquí</a>
           </div>
         </div>
       </div>
@@ -165,7 +167,7 @@
               digital resaltando la esencia y los
               valores de tu marca.</p>
             <p class="text-primary font-weight-bold">¡Quiero saber más!</p>
-            <a href="#" class="btn btn-primary">Click Aquí</a>
+            <a href="asesoria.php" class="btn btn-primary">Click Aquí</a>
           </div>
         </div>
       </div>
@@ -179,7 +181,7 @@
               profesionales con visión de
               crecimiento.</p>
             <p class="text-primary font-weight-bold">¡Quiero saber más!</p>
-            <a href="#" class="btn btn-primary">Click Aquí</a>
+            <a href="talleres-y-conferencias.php" class="btn btn-primary">Click Aquí</a>
           </div>
         </div>
       </div>
@@ -284,20 +286,23 @@
       </div>
     </div>
     <div class="row mt-3">
-      <div class="col-md-3">
-        <input class="form-control rounded-pill border-0" type="text" placeholder="Nombre">
-      </div>
-      <div class="col-md-3 mt-3 mt-md-0">
-        <input class="form-control rounded-pill border-0" type="text" placeholder="Apellido">
-      </div>
-      <div class="col-md-3 mt-3 mt-md-0">
-        <input class="form-control rounded-pill border-0" type="email" placeholder="Correo electrónico">
-      </div>
-      <div class="col-md-3 mt-3 mt-md-0">
-        <input class="form-control rounded-pill border-0" type="text" placeholder="Whatsapp">
-      </div>
-      <div class="mt-3 d-block d-md-flex w-100 justify-content-end px-3">
-        <a href=""><button class="btn btn-blanco btn-block">Suscribirme <svg class="mb-1 ml-1"
+      <form class="w-100">
+        <div class="form-row">
+          <div class="form-group col-md-3">            
+            <input class="form-control rounded-pill border-0" type="text" placeholder="Nombre">
+          </div>
+          <div class="form-group col-md-3">
+            <input class="form-control rounded-pill border-0" type="text" placeholder="Apellido">            
+          </div>
+          <div class="form-group col-md-3">
+          <input class="form-control rounded-pill border-0" type="email" placeholder="Correo electrónico">      
+          </div>
+          <div class="form-group col-md-3">
+          <input class="form-control rounded-pill border-0" type="text" placeholder="Whatsapp">      
+          </div>
+        </div>
+        <div class="mt-3 d-block d-md-flex w-100 justify-content-end px-3">
+          <a href="#"><button type="submit" class="btn btn-blanco btn-block">Suscribirme <svg class="mb-1 ml-1"
               xmlns="http://www.w3.org/2000/svg" width="9.476" height="16.638" viewBox="0 0 9.476 16.638">
               <g id="next_1_" data-name="next (1)" transform="translate(-60.433 -1.433)">
                 <g id="Grupo_475" data-name="Grupo 475" transform="translate(61 2)">

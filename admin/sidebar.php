@@ -12,8 +12,8 @@
                                 Blog
                                 </a>
                                 <div class="dropdown-menu bg-nude shadow-sm border-0 rounded-lg" aria-labelledby="blog_dropdown">
-                                <a class="dropdown-item" href="#">Todos los artículos</a>
-                                <a class="dropdown-item" href="#">Categorías</a>                        
+                                <a class="dropdown-item" href="blog.php">Todos los artículos</a>
+                                <a class="dropdown-item" href="categorias.php">Categorías</a>                        
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
@@ -21,16 +21,16 @@
                                 Servicios
                                 </a>
                                 <div class="dropdown-menu bg-nude shadow-sm border-0 rounded-lg" aria-labelledby="servicios_dropdown">
-                                <a class="dropdown-item" href="#">Asesoría personalizada</a>
-                                <a class="dropdown-item" href="#">Mentoría</a>
-                                <a class="dropdown-item" href="#">Talleres y eventos</a>
+                                <a class="dropdown-item" href="servicios_asesoriaPer.php">Asesoría personalizada</a>
+                                <a class="dropdown-item" href="servicios_mentoriaTab1.php">Mentoría</a>
+                                <a class="dropdown-item" href="servicios_tye.php">Talleres y eventos</a>
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Recursos Gratis</a>
+                                <a class="nav-link" href="recursos.php">Recursos Gratis</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Newsletter</a>
+                                <a class="nav-link" href="#newsletter.php">Newsletter</a>
                             </li>
                         </ul>
                     </nav>

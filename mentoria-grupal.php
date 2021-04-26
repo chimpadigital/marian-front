@@ -340,7 +340,6 @@ crecimiento.</p>
   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
   <script type="module" src="assets/js/starter.js"></script>
 
-  <script src="/node_modules/jquery/dist/jquery.js"></script>
   <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
 
   <script type="text/javascript">

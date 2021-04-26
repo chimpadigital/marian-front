@@ -13,7 +13,7 @@
 
   <?php include 'header.php';?>
 
-  <div>
+  <div class="petalos-right petalos-left test-form">
     <div class="container my-5">
       <div class="row">
         <div class="col-md-12 text-center">

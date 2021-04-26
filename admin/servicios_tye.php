@@ -21,7 +21,7 @@
                     <div class="col-md-12">
                         <div class="d-flex flex-row align-items-center justify-content-between">
                             <h2 class="ml-3 ml-md-0">Talleres y eventos</h2>
-                            <a style="white-space: nowrap;" href=""><button class="btn btn-primary">Nuevo evento</button></a>
+                            <a style="white-space: nowrap;" href="servicios_newEvent.php"><button class="btn btn-primary">Nuevo evento</button></a>
                         </div>
                     </div>
                 </div>

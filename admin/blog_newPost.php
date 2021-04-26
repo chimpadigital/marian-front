@@ -34,10 +34,12 @@
                 </div>  
                 <div class="row mt-4">
                     <div class="col-md-8">
-                        <h5 class="text-marron-claro font-weight-normal mb-2">Título del artículo</h5>
-                        <input class="form-control form-control-lg rounded-pill" type="text">
-                        <h5 class="mt-5 text-marron-claro font-weight-normal mb-2">Cuerpo del artículo</h5>
-                        <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+                        <form id="newPost" action="">
+                            <h5 class="text-marron-claro font-weight-normal mb-2">Título del artículo</h5>
+                            <input class="form-control form-control-lg rounded-pill" type="text">
+                            <h5 class="mt-5 text-marron-claro font-weight-normal mb-2">Cuerpo del artículo</h5>
+                            <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+                        </form>                        
                     </div>
                     <div class="col-md-4">
                         <div class="text-center mt-5 mt-md-0">
@@ -50,7 +52,7 @@
                 <div class="row my-4">
                     <div class="col-md-12">
                         <div class="d-block d-md-flex justify-content-md-end justify-content-center">
-                            <a href=""><button class="btn btn-outline-primary btn-block">Publicar</button></a>
+                            <a href="#"><button type="submit" form="newPost" class="btn btn-outline-primary btn-block">Publicar</button></a>
                         </div>
                     </div>                  
                 </div> 
