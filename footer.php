@@ -46,7 +46,7 @@
                             <a class="nav-link pl-0" href="sobre-mi.php">Sobre Mi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link pl-0" href="#">Hola por aquí</a>
+                            <a class="nav-link pl-0" href="test.php">Hola por aquí</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link pl-0" href="servicios.php">Trabajá conmigo</a>
@@ -67,30 +67,30 @@
                 <h4 class="text-medium mb-4">Trabajá conmigo</h4>
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link pl-0 pt-0" href="#">Consultoría Personalizada</a>
+                        <a class="nav-link pl-0 pt-0" href="asesoria.php">Consultoría Personalizada</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link pl-0" href="#">Mentoría</a>
+                        <a class="nav-link pl-0" href="mentoria.php">Mentoría</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link pl-0" href="#">Talleres y Conferencias</a>
+                        <a class="nav-link pl-0" href="talleres-y-eventos.php">Talleres y Conferencias</a>
                     </li>                    
                 </ul>
             </div>
             <div class="col-md-3">
                 <h4 class="text-medium mb-4">Mis novedades</h4>
                 <div>
-                    <a href=""><h6 class="text-marron">Otro posteito de sitio web</h6></a>
+                    <a href="entrada.php"><h6 class="text-marron">Otro posteito de sitio web</h6></a>
                     <p class="date-input"><span>Marian</span>. <span>11 Nov 2020</span></p>
                     <hr>
                 </div>
                 <div>
-                    <a href=""><h6 class="text-marron">Otro posteito de sitio web</h6></a>
+                    <a href="entrada.php"><h6 class="text-marron">Otro posteito de sitio web</h6></a>
                     <p class="date-input"><span>Marian</span>. <span>11 Nov 2020</span></p>
                     <hr>
                 </div>
                 <div>
-                    <a href=""><h6 class="text-marron">Otro posteito de sitio web</h6></a>
+                    <a href="entrada.php"><h6 class="text-marron">Otro posteito de sitio web</h6></a>
                     <p class="date-input"><span>Marian</span>. <span>11 Nov 2020</span></p>                    
                 </div>
             </div>

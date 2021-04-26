@@ -49,7 +49,8 @@
           <div class="col-md-6">
             <div class="card border-0 my-4">
               <div class="position-relative">
-                <img src="assets/img/img-publicacion-blog.png" class="card-img-top rounded-0" alt="...">
+                <a href="entrada.php"><img src="assets/img/img-publicacion-blog.png" class="card-img-top rounded-0" alt="..."></a>
+                
                 <div class="badge-date position-absolute">
                   <p class="m-0 text-white"><svg id="Icon_ionic-ios-calendar" data-name="Icon ionic-ios-calendar"
                       xmlns="http://www.w3.org/2000/svg" width="12.064" height="11.136" viewBox="0 0 12.064 11.136">
@@ -67,7 +68,7 @@
                 </div>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Marketing digital</h5>
+                <a href="entrada.php"><h5 class="card-title">Marketing digital</h5></a>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                   card's content.</p>
 
@@ -77,7 +78,8 @@
           <div class="col-md-6">
             <div class="card border-0 my-4">
               <div class="position-relative">
-                <img src="assets/img/img-publicacion-blog.png" class="card-img-top rounded-0" alt="...">
+                <a href="entrada.php"><img src="assets/img/img-publicacion-blog.png" class="card-img-top rounded-0" alt="..."></a>
+                
                 <div class="badge-date position-absolute">
                   <p class="m-0 text-white"><svg id="Icon_ionic-ios-calendar" data-name="Icon ionic-ios-calendar"
                       xmlns="http://www.w3.org/2000/svg" width="12.064" height="11.136" viewBox="0 0 12.064 11.136">
@@ -95,17 +97,17 @@
                 </div>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Marketing digital</h5>
+                <a href="entrada.php"><h5 class="card-title">Marketing digital</h5></a>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                   card's content.</p>
 
               </div>
             </div>
-          </div>
-          <div class="col-md-6">
+          </div><div class="col-md-6">
             <div class="card border-0 my-4">
               <div class="position-relative">
-                <img src="assets/img/img-publicacion-blog.png" class="card-img-top rounded-0" alt="...">
+                <a href="entrada.php"><img src="assets/img/img-publicacion-blog.png" class="card-img-top rounded-0" alt="..."></a>
+                
                 <div class="badge-date position-absolute">
                   <p class="m-0 text-white"><svg id="Icon_ionic-ios-calendar" data-name="Icon ionic-ios-calendar"
                       xmlns="http://www.w3.org/2000/svg" width="12.064" height="11.136" viewBox="0 0 12.064 11.136">
@@ -123,17 +125,17 @@
                 </div>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Marketing digital</h5>
+                <a href="entrada.php"><h5 class="card-title">Marketing digital</h5></a>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                   card's content.</p>
 
               </div>
             </div>
-          </div>
-          <div class="col-md-6">
+          </div><div class="col-md-6">
             <div class="card border-0 my-4">
               <div class="position-relative">
-                <img src="assets/img/img-publicacion-blog.png" class="card-img-top rounded-0" alt="...">
+                <a href="entrada.php"><img src="assets/img/img-publicacion-blog.png" class="card-img-top rounded-0" alt="..."></a>
+                
                 <div class="badge-date position-absolute">
                   <p class="m-0 text-white"><svg id="Icon_ionic-ios-calendar" data-name="Icon ionic-ios-calendar"
                       xmlns="http://www.w3.org/2000/svg" width="12.064" height="11.136" viewBox="0 0 12.064 11.136">
@@ -151,17 +153,17 @@
                 </div>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Marketing digital</h5>
+                <a href="entrada.php"><h5 class="card-title">Marketing digital</h5></a>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                   card's content.</p>
 
               </div>
             </div>
-          </div>
-          <div class="col-md-6">
+          </div><div class="col-md-6">
             <div class="card border-0 my-4">
               <div class="position-relative">
-                <img src="assets/img/img-publicacion-blog.png" class="card-img-top rounded-0" alt="...">
+                <a href="entrada.php"><img src="assets/img/img-publicacion-blog.png" class="card-img-top rounded-0" alt="..."></a>
+                
                 <div class="badge-date position-absolute">
                   <p class="m-0 text-white"><svg id="Icon_ionic-ios-calendar" data-name="Icon ionic-ios-calendar"
                       xmlns="http://www.w3.org/2000/svg" width="12.064" height="11.136" viewBox="0 0 12.064 11.136">
@@ -179,17 +181,17 @@
                 </div>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Marketing digital</h5>
+                <a href="entrada.php"><h5 class="card-title">Marketing digital</h5></a>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                   card's content.</p>
 
               </div>
             </div>
-          </div>
-          <div class="col-md-6">
+          </div><div class="col-md-6">
             <div class="card border-0 my-4">
               <div class="position-relative">
-                <img src="assets/img/img-publicacion-blog.png" class="card-img-top rounded-0" alt="...">
+                <a href="entrada.php"><img src="assets/img/img-publicacion-blog.png" class="card-img-top rounded-0" alt="..."></a>
+                
                 <div class="badge-date position-absolute">
                   <p class="m-0 text-white"><svg id="Icon_ionic-ios-calendar" data-name="Icon ionic-ios-calendar"
                       xmlns="http://www.w3.org/2000/svg" width="12.064" height="11.136" viewBox="0 0 12.064 11.136">
@@ -207,17 +209,17 @@
                 </div>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Marketing digital</h5>
+                <a href="entrada.php"><h5 class="card-title">Marketing digital</h5></a>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                   card's content.</p>
 
               </div>
             </div>
-          </div>
-          <div class="col-md-6">
+          </div><div class="col-md-6">
             <div class="card border-0 my-4">
               <div class="position-relative">
-                <img src="assets/img/img-publicacion-blog.png" class="card-img-top rounded-0" alt="...">
+                <a href="entrada.php"><img src="assets/img/img-publicacion-blog.png" class="card-img-top rounded-0" alt="..."></a>
+                
                 <div class="badge-date position-absolute">
                   <p class="m-0 text-white"><svg id="Icon_ionic-ios-calendar" data-name="Icon ionic-ios-calendar"
                       xmlns="http://www.w3.org/2000/svg" width="12.064" height="11.136" viewBox="0 0 12.064 11.136">
@@ -235,17 +237,17 @@
                 </div>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Marketing digital</h5>
+                <a href="entrada.php"><h5 class="card-title">Marketing digital</h5></a>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                   card's content.</p>
 
               </div>
             </div>
-          </div>
-          <div class="col-md-6">
+          </div><div class="col-md-6">
             <div class="card border-0 my-4">
               <div class="position-relative">
-                <img src="assets/img/img-publicacion-blog.png" class="card-img-top rounded-0" alt="...">
+                <a href="entrada.php"><img src="assets/img/img-publicacion-blog.png" class="card-img-top rounded-0" alt="..."></a>
+                
                 <div class="badge-date position-absolute">
                   <p class="m-0 text-white"><svg id="Icon_ionic-ios-calendar" data-name="Icon ionic-ios-calendar"
                       xmlns="http://www.w3.org/2000/svg" width="12.064" height="11.136" viewBox="0 0 12.064 11.136">
@@ -263,7 +265,7 @@
                 </div>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Marketing digital</h5>
+                <a href="entrada.php"><h5 class="card-title">Marketing digital</h5></a>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                   card's content.</p>
 
