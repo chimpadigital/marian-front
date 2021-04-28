@@ -962,6 +962,28 @@ img.icon-tab{
         height: 405px;
     }
 }
+
+//
+// Newsletter Page
+//
+.table-newsletter td{
+    color: #937A69;
+}
+.table-newsletter{
+    border-color: #937A69 !important;
+}
+.table-newsletter.table thead th {
+    vertical-align: bottom;
+    border-bottom: 3px solid #707070;
+}
+.table-newsletter.table th, .table-newsletter.table td {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #937A69;
+}
+.table-newsletter.table th.sin-borde {
+    border-top: none;
+}
 //
 // Blog Page
 //
